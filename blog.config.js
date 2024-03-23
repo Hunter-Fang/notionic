@@ -19,8 +19,8 @@ const BLOG = {
     newsletter: false,
     notes: false,
     projects: false,
-    contact: true,
-    books: true,
+    contact: false,
+    books: false,
     BB: true,
     friends: false
   },
