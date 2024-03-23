@@ -1,10 +1,10 @@
 const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
+  title: 'BESTNINAN',
+  author: 'Hunter',
+  email: '2379566903@qq.com',
+  link: 'https://hunterfang.cn',
   newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  description: '偶尔逼逼',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -12,29 +12,30 @@ const BLOG = {
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: true,
-    notes: true,
-    projects: true,
+    newsletter: false,
+    notes: false,
+    projects: false,
     contact: true,
     books: true,
-    friends: true
+    BB: true,
+    friends: false
   },
-  showWeChatPay: true,
-  previewImagesEnabled: true,
+  showWeChatPay: false,
+  previewImagesEnabled: false,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: '',
+    github: '',
+    telegram: ''
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['Hunterfang', 'Bestninan', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
